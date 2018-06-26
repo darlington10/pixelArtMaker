@@ -1,0 +1,44 @@
+*{
+    margin:0px; padding:0px;
+}
+.drawboard{
+    border:1px solid red;
+    background:#ccc;
+    margin:0px 30px;
+}
+#canvas, #canvas tr, #canvas td {
+    border:1px solid black;
+}
+#canvas{
+    border-collapse:collapse;
+    background:white;
+}
+#canvas td {
+    width:20px;
+    height:20px;
+}
+input[type="submit"]{
+    background:blue;
+    background: linear-gradient(to right, rgb(150,255,180, 0.3), rgb(150,255,180, 1.0) );
+    display:inline-block;
+    width:90px;
+    padding:3px;
+}
+input[type = "submit"]:hover {
+    box-shadow:2px 3px 4px #888;
+    cursor:pointer;
+
+}
+input[type="color"]{
+    margin:10px 0px;
+}
+#clear {
+    background-color:#ffc;
+    display: inline-block;
+    width:90px;
+}
+#clear:hover {
+    background-color:red;
+    color:white;
+    transform:scale(2, 3);
+}

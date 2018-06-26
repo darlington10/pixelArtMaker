@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+    <head>
+        <meta charset = "utf-8" />
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
+        <title>
+            Pixel Art Maker
+        </title>
+        <link rel = "stylesheet" href = "udacss.css" />
+        <script src = "udajs.js" defer></script>
+    </head>
+    <body>
+        <div class = "drawboard">
+            <h1>Pixel Art maker</h1>
+            <form id = "set" >
+                <input type = "number" id = "row" />
+                <input type = "number" id = "col" />
+                <input type = "submit" value = "make grid" />
+            </form>
+            <p>
+                Color Picker: <input type = "color" id = "picker" />
+                Clear Grid: <input type = "button" id = "clear" value = "clear" />
+            </p>
+            <table id = "canvas"></table>
+        </div>
+    </body>
+</html>
