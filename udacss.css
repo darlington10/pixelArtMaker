@@ -4,7 +4,7 @@
 .drawboard{
     border:1px solid red;
     background:#ccc;
-    margin:0px 30px;
+    text-align:center;
 }
 #canvas, #canvas tr, #canvas td {
     border:1px solid black;
@@ -12,6 +12,7 @@
 #canvas{
     border-collapse:collapse;
     background:white;
+    margin:auto;
 }
 #canvas td {
     width:20px;
